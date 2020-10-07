@@ -5,3 +5,37 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+@media (max-width: 768px) {
+    body {
+        background-color: #F4F3F4;
+    }
+
+    nav {
+        position: fixed;
+        display: flex;
+        justify-content: flex-start;
+        width: 58%;
+        color: #5b5e6d;
+        border: 2px solid black;
+    }
+
+    nav img {
+        width: 200px;
+        height: 100px;
+        margin-left: 60px;;
+        margin-top: 6px;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    .fa-bars {
+        font-size: 50px;
+    }
+
+    .fa-times {
+        display: none;
+    }
+}
