@@ -8,34 +8,47 @@ nav grey: #5b5e6d;
 
 @media (max-width: 768px) {
     body {
+        margin: 0px;
+        padding: 0px;
         background-color: #F4F3F4;
     }
 
     nav {
         position: fixed;
-        display: flex;
-        justify-content: flex-start;
-        width: 58%;
+        top: 0;
+        width: 100%;
+        height: 10%;
         color: #5b5e6d;
-        border: 2px solid black;
+        background-color: #FFFFFF;
+        border-bottom: 1px solid #eeeeee;
     }
 
     nav img {
         width: 200px;
         height: 100px;
-        margin-left: 60px;;
-        margin-top: 6px;
+        margin-left: 44px;;
+        margin-top: 14px;
     }
 
-    nav ul li {
+    nav ul {
         display: none;
     }
 
     .fa-bars {
-        font-size: 50px;
+        position: absolute;
+        top: 48px;
+        right: 95px;
+        font-size: 114px;
     }
 
     .fa-times {
         display: none;
+    }
+
+    header {
+        position: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-left: 40px;
     }
 }
